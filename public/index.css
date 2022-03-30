@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box; /* not completely needed, yet useful */
+  overflow-x: hidden;
+
+}
+
+html {
+      /* overflow-x: hidden; */
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.body-y-overflow-hide{
+    height: 100vh;
+
+    overflow-y: hidden;
+}
+
+div {
+    display: block;
+}
+
+body {
+  display: flex; /* or css grid for more intricate layouts */
+  flex-direction: column;
+}
+
+
+h1{
+font-size: 50px;
+margin: 0;
+}
+
+h2{
+    margin: 1rem 0;
+}
+
+.formtitle{
+    position: absolute;
+    bottom: 20px;
+    margin: 0 10px;
+}
+
+.signUpForm{
+    transform: translateX(100vw);
+    transition: 700ms;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    left: 100vw;
+}
+
+.Signup{
+    padding: 5% 5%;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+}
+
+
+.is-visible{
+    transform: translateX(-100vw);
+    transition: 500ms;
+
+}
+
+.form-content{
+    position: absolute;
+    top: 120px;
+    left: 40px
+}
+    
+
+.solh2{
+    color: white;
+}
+
+
+.solh3{
+    color: white;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.body{
+    padding-left: 5%;
+    padding-right: 5%
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header-canvas{
+    width: 100%;
+}
+
+.side-button {
+}
+
+.header-bellow{
+    margin-left: 5%;
+    /* position: absolsute; */
+    /* margin-top: calc(40vw + 75px) */
+}
+
+.header-button-container{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-margin{
+    /* margin: 5%; */
+    padding: 5%;
+    height:100%
+    /* z-index: 10; */
+}
+
+.margin-remove{
+    margin: 0 0 5px 0;
+}
+
+.blacktop{
+    /* z-index: 1; */
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    height: 170px;
+}
+
+.sidebar{
+    margin: 35px 5% 0 0;
+    flex-direction: row;
+
+}
+.sidebar2{
+    margin: 35px 5% 0 0;
+    flex-direction: row;
+
+    position: relative;
+    top:-120px
+}
+
+.a-no-style{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.a-no-style:hover{
+    text-decoration: underline;
+    /* transition: 1s; */
+}
+
+.no-style-btn{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.dot{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover{
+    
+    background-color: rgb(77, 77, 77);
+    transition: 0.4s;
+
+
+}
+.points{
+    opacity: 1;
+    position: relative;
+}
+
+
+.scroll-enable{
+    opacity: 0;
+    transform: translateY(-5vh);
+}
+
+
+.top-nav-icons{
+    opacity: 0;
+    transform: translateY(-5vh);
+
+}
+
+.scroll-in-view{
+    opacity: 1;
+
+    transform: translateY(0px);
+    /* visibility: hidden; */
+    transition: opacity 0.3s ease-out, transform 0.4s ease-out;
+    will-change: opacity, visibility;
+}
+
+.points.is-visible{
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.btn{
+    transition: 0.2s;
+
+    background-color: #0f0f0f;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn-nav{
+    margin: 0 4px;
+}
+
+.btn-nav2{
+    margin: 5px 4px
+}
+
+.button-brown{
+    transition: 0.2s;
+
+    background-color: rgb(194, 132, 103);
+}
+
+.btn:hover{
+    
+    background-color: rgb(77, 77, 77);
+    transition: 0.4s;
+}
+.button-brown:hover{
+    background-color: rgb(219, 148, 115);
+    transition: 0.4s;
+
+}
+
+.solutions-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.solutions{
+    width: 100%;
+    height: 300px
+
+}
+
+.s1{
+    background-color: rgb(14, 14, 27);
+
+}
+.s2{
+    background-image: url('./images/jet.png');
+    background-size: 100%;
+    /* background-position: -50px -10px; */
+
+    
+
+}
+.s3{
+    background-color: rgb(216, 144, 111);
+
+}
+
+.btn-icon-svg {
+    margin: 17px 17px;
+    color: rgb(231, 231, 231);
+    transform: scale(125%);
+}
+
+.btn-icon-svg:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.locations-grid-div{
+    
+}
+
+.flight-manager-section{
+    background-color: rgb(36, 38, 51);
+}
+
+.image-carousel-container{
+
+}
+
+.underline-button-container{
+
+}
+
+.book-a-flight-btn{
+
+}
+
+.white{
+    color: white;
+}
+
+.Footer{
+    background-color: rgb(148, 148, 148);
+}
+
+.footer-social-icons{
+
+}
+.social-list-container{
+
+}
+
+.social-button{
+    
+}
+
+.footer-list-links{
+    
+}

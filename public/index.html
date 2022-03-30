@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flyhyer clone</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    </script>
+
+    <!-- <script type="module" src="./this-loader.js"> -->
+    </script>
+</head>
+
+<body class="">
+    <div id="all" class="all">
+        <div class="main ">
+            <div id="userLogin" class="signUpForm">
+
+                <div class="header-button-container sidebar">
+                    <button class="btn-nav btn scroll-enable">Login</button>
+                    <button class="btn-nav btn scroll-enable">Register</button>
+
+                <button class="no-style-btn"><span onclick="clickLogin()"
+                    class="dot"><svg class="btn-icon-svg" xmlns="http://www.w3.org/2000/svg" width="1em"
+                        height="1em" fill="currentColor" viewBox="0 0 256 256">
+                        <rect width="256" height="256" fill="none"></rect>
+                        <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                        <line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                        <line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                    </svg></span></button>
+                </div>
+                <div class="form-content">
+
+                    <h2 class="margin-remove">On Demand</h2>
+                    <a class="a-no-style" href="">Private charter</a>
+                    <br>
+                    <br>
+                    <h2 class="margin-remove">Shared flights</h2>
+                    <a class="a-no-style" href="">Available flights</a>
+                    <br>
+                    <a class="a-no-style" href="">Propose a flight</a>
+                    <br>
+                    <br>
+                    <h2 class="margin-remove">Memberships</h2>
+                    <a class="a-no-style" href="">Elevate</a>
+                    <br>
+                    <a class="a-no-style" href="">Hyer® Altitude</a>
+                    <br>
+                    <br>
+                    <h2 class="margin-remove">Company</h2>
+                    <a class="a-no-style" href="">About us</h3>
+                    <br>
+                    <a class="a-no-style" href="">Solutions</a>
+                    <br>
+                    <a class="a-no-style" href="">News</a>
+                    <br>
+                    <a class="a-no-style" href="">Contact</a>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+            <div id="bookOnDemand" class="signUpForm">
+                <div class="blacktop">
+
+                    <div class="form-margin">
+
+                        <button id="ondb" onclick="ondcli()" class="btn-nav2 btn scroll-enable button-brown">On-demand</button>
+                        <button id="shareb" onclick="sharecli()"class="btn-nav2 btn scroll-enable">Shared flights</button>
+                            <div class="header-button-container">
+                                <button class="no-style-btn"><span onclick="clickOnDemand()"
+                                    class="dot"><svg class="btn-icon-svg" xmlns="http://www.w3.org/2000/svg" width="1em"
+                                        height="1em" fill="currentColor" viewBox="0 0 256 256">
+                                        <rect width="256" height="256" fill="none"></rect>
+                                        <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                                        <line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                                        <line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                                    </svg></span>
+                                </button>
+                            </div>
+                        <h2 id="formtitle" class="formtitle white">Book on Demand</h2>
+
+                    </div>
+
+                </div>
+
+                <div class="header-button-container sidebar2">
+
+
+                </div>
+                <div class="form-content">
+
+                    
+
+
+
+                    
+
+
+
+                </div>
+
+            </div>
+            <div>
+                <div id="Header">
+
+                    <!-- <canvas class="header-canvas"></canvas> -->
+
+                </div>
+
+
+                <div class="header-bellow">
+                    <h1 id="toptitle" class="scroll-enable">Personalised Aviation</h1>
+                    <h2 class="scroll-enable">More flexibility, freedom and choice!</h2>
+                    <button class="btn scroll-enable">Book an Aircraft</button>
+                    <button class="btn scroll-enable">Book a Shared Flight</button>
+                </div>
+                <div>
+                    <div class="body">
+                        <hr />
+                        <h2 class="scroll-enable">We believe that in a world where passengers have become numbers, a
+                            personal approach is key
+                            to ensure you get the most out of your flying experience.</h2>
+                        <div class="points scroll-enable">
+                            <hr />
+                            <h2>Flexible Solutions</h2>
+                            <p>Stop depending on airlines. Fly on your own terms or join our exclusive shared flights.
+                            </p>
+                            <br />
+                        </div>
+                        <div class="points scroll-enable">
+                            <hr />
+                            <h2>Smart Quotes</h2>
+                            <p>Know what you are paying for. No hidden fees. No overpromises. Flights suitable for your
+                                needs.</p>
+                            <br />
+                        </div>
+                        <div class="points scroll-enable">
+                            <hr />
+                            <h2>Fully Customizable</h2>
+                            <p>Control all aspects of your journey. Easily upgrade services with our add-ons.</p>
+                            <br />
+                        </div>
+                        <div class="points scroll-enable">
+                            <hr />
+                            <h2>Personalization</h2>
+                            <p>Receive full support of our Flight Management service. We have you covered, anywhere.</p>
+                            <br />
+                        </div>
+
+                        <div class="solutions-container">
+                            <div class="solutions s1 ">
+                                <h2 class="solh2 scroll-enable">Flexible Services</h2>
+                                <h3 class="solh3 scroll-enable">Smart solutions for all your character requirements</h3>
+                                <button class="btn scroll-enable">All Solutions</button>
+                            </div>
+                            <div class="solutions s2">
+                                <h2 class="scroll-enable">On-Demand</h2>
+                                <h3 class="scroll-enable">Book your aircraft. Customize all aspects of your journey</h3>
+                            </div>
+                            <div class="solutions s3">
+                                <h2 class="solh2 scroll-enable">Shared Flights</h2>
+                                <h3 class="solh3 scroll-enable">Fly private for a fraction of the price</h3>
+                            </div>
+                            <div class="solutions">
+                                <h2 class="scroll-enable">Popular Destinations</h2>
+                            </div>
+
+                            <div class="locations-grid-div">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="hand-image scroll-enable">
+
+
+                            </div>
+                            <div class="flight-manager-section solutions">
+                                <h2 class="solh2 scroll-enable">Flight Manager</h2>
+                                <p class=" solh2 scroll-enable">All of our flights come with complimentary Flight
+                                    Manager Service. Your dedicated
+                                    Flight
+                                    Manager ensures that every detail of your flight is taken care of and you get the
+                                    most
+                                    competitive tailor-made offers.
+                                    Speak with your Flight Manager in English 🇬🇧, Dutch 🇳🇱, German 🇩🇪, Spanish
+                                    🇪🇸 or
+                                    Portuguese 🇵🇹. </p>
+                            </div>
+                            <div>
+                                <h1>HYER® Experience</h1>
+                                <p>At Hyer® we are bold. The aircraft is just a tool we use to get you where you want to
+                                    be.
+                                    Our clients enjoy much more value for their investment, accessing unparalleled
+                                    personalisation when flying private.</p>
+                                <p>We offer personalised experiences with our on-demand charters and personalised
+                                    flexibility with our exclusive shared flight. We upgrade the way you fly.</p>
+
+                                <div class="lower-points-container">
+                                    <img src="" alt="">
+                                    <h2>Rewarding Membership</h2>
+                                    <p>Our membership blends the advantage of a jet card with the easiness of a loyalty
+                                        program. Get access to services not available anywhere without hefty fees.</p>
+                                </div>
+
+                                <div class="lower-points-container">
+                                    <img src="" alt="">
+                                    <h2>Exclusive Shared Flights</h2>
+                                    <p>Clients can book a seat on selected routes, sharing the costs with like-minded
+                                        people. Experience the benefits of flying private for a fraction of the price.
+                                    </p>
+                                </div>
+
+                                <div class="lower-points-container">
+                                    <img src="" alt="">
+                                    <h2>CO2 Neutral Flights</h2>
+                                    <p>We play our part to ensure a more sustainable future. Via Hyer® CO2 offset
+                                        program,
+                                        clients can offset the entire emission of their flights.</p>
+                                </div>
+                                <button class="btn">Book an Aircraft</button>
+                            </div>
+                        </div>
+                        <div class="image-carousel-container">
+                            <!-- image carousel with counter that increments out of /6 -->
+                        </div>
+                        <div class="underline-button-container">
+                            <h1><a href="" class="book-a-flight-btn">Book a Flight</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Signup top-nav-icons">
+                <!-- <img src="" alt="img"> -->
+                <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 0V55H27.7551C42.7804 55 55 42.7804 55 27.7551V0H0ZM53.8406 27.7551C53.8406 42.1311 42.1311 53.8406 27.7551 53.8406H1.15936V1.15936H53.8406V27.7551Z"
+                        fill="#000D10"></path>
+                    <path
+                        d="M10.4111 19.1988H17.2513C19.3382 19.1988 21.054 17.5061 21.054 15.3961V29.4475H25.7378V5.72705H21.0308V15.4193H10.4111V5.72705H5.72729V29.4475H10.4111V19.1988Z"
+                        fill="#000D10"></path>
+                    <path
+                        d="M31.6968 12.15C33.1344 11.9645 34.2938 10.8052 34.4793 9.36757C34.7575 7.25754 32.9721 5.47213 30.8621 5.75037C29.4245 5.93587 28.2651 7.09523 28.0796 8.53284C27.8014 10.6429 29.5868 12.4283 31.6968 12.15ZM31.72 6.30687C32.833 6.49236 33.7373 7.39666 33.9228 8.48646C34.2242 10.3182 32.6475 11.895 30.8157 11.5935C29.7027 11.408 28.7984 10.5037 28.6361 9.39076C28.3115 7.58216 29.8882 6.00543 31.72 6.30687Z"
+                        fill="#000D10"></path>
+                    <path
+                        d="M30.7231 9.25195H31.21H31.3492L31.952 10.4345H32.6245L31.952 9.11282C32.323 8.95051 32.5085 8.67227 32.5085 8.32446C32.5085 7.69841 32.1375 7.39697 31.1173 7.39697H30.1202V10.4345H30.7231V9.25195ZM30.7231 7.8839H31.1869C31.6042 7.8839 31.8825 7.99984 31.8825 8.34765C31.8825 8.64908 31.6738 8.81139 31.21 8.81139H30.7231V7.8839Z"
+                        fill="#000D10"></path>
+                </svg>
+
+                <div class="header-button-container">
+
+                    <button class="no-style-btn"><span onclick="clickLogin()"
+                            class="dot"><svg class="btn-icon-svg" xmlns="http://www.w3.org/2000/svg" width="1em"
+                                height="1em" fill="currentColor" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none"></rect>
+                                <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                                <line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                                <line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line>
+                            </svg></span></button>
+                    <button class="no-style-btn"><span onclick="clickOnDemand()" class="dot"><svg class="btn-icon-svg"
+                                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                                viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none"></rect>
+                                <path
+                                    d="M128,224l-40,8V208l16-16V152L24,168V144l80-40,.11255-56a24,24,0,0,1,48,0l.11255,56,80,40v24l-80-16v40L168,208v24Z"
+                                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="8"></path>
+                            </svg>
+                        </span></button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="Footer">
+            <svg viewBox="0 0 116 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.8032 0H23.5903V36.2469H30.8032V0Z" fill="white"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0H7.21288V36.2469H0V0ZM7.21297 14.7849H23.5904C23.5904 18.0112 20.9599 20.5923 17.7353 20.5923H7.21297V14.7849Z"
+                    fill="white"></path>
+                <path
+                    d="M35.2441 45V39.6976H37.8747C40.1941 39.6976 41.2124 39.7537 42.4004 36.8921L42.7116 36.1347L32.3307 9.34227H39.9396L46.0776 28.7282L52.3853 9.34227H59.4285L49.5002 35.4333C46.2756 43.7936 44.9179 44.9719 38.1576 44.9719H35.2441V45Z"
+                    fill="white"></path>
+                <path
+                    d="M65.4251 24.6882C65.8211 29.2892 68.9608 31.5336 72.2702 31.5336C74.4483 31.5336 76.5414 30.7761 77.9557 28.4476H85.1403C83.6695 32.4594 79.7377 36.8921 72.3268 36.8921C63.6148 36.8921 58.5233 30.4395 58.5233 22.6963C58.5233 14.7007 64.1239 8.75308 72.1288 8.75308C80.5014 8.75308 85.6777 15.2057 85.4232 24.6882H65.4251ZM65.5382 19.947H78.38C78.2386 15.4021 75.014 13.803 72.0722 13.803C69.4699 13.803 66.0756 15.4021 65.5382 19.947Z"
+                    fill="white"></path>
+                <path
+                    d="M103.696 15.9913C102.677 15.851 101.829 15.851 100.811 15.851C97.388 15.851 95.1252 17.1135 95.1252 22.1633V36.2749H88.1669V9.34227H95.012V14.0555C96.5677 10.717 99.0003 9.39838 102.168 9.39838C102.621 9.39838 103.215 9.45449 103.667 9.5106V15.9913H103.696Z"
+                    fill="white"></path>
+                <path
+                    d="M111.022 9.87531C108.278 9.87531 106.043 7.65898 106.043 4.93766C106.043 2.21633 108.278 0 111.022 0C113.765 0 116 2.21633 116 4.93766C116 7.65898 113.765 9.87531 111.022 9.87531ZM111.022 0.841646C108.731 0.841646 106.892 2.69327 106.892 4.93766C106.892 7.2101 108.759 9.03367 111.022 9.03367C113.313 9.03367 115.152 7.18204 115.152 4.93766C115.152 2.66521 113.285 0.841646 111.022 0.841646Z"
+                    fill="white"></path>
+                <path
+                    d="M111.163 5.38653H110.937H110.173V7.21009H109.24V2.58104H110.767C112.295 2.58104 112.889 3.00186 112.889 3.98378C112.889 4.51682 112.634 4.9657 112.04 5.19014L113.087 7.18204H112.068L111.163 5.38653ZM110.173 3.28241V4.68515H110.937C111.672 4.68515 111.955 4.46072 111.955 3.98378C111.955 3.45074 111.503 3.28241 110.88 3.28241H110.173Z"
+                    fill="white"></path>
+            </svg>
+            <div class="'footer-logos">
+                <h2>Follow us</h2>
+                <ul class="social-list-container">
+                    <li class="social-button"></li>
+                    <li class="social-button"></li>
+                    <li class="social-button"></li>
+                </ul>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <ul><span>On-demand</span>
+                            <li><a class="footer-list-links" href="">Private Charter</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul><span>Shared Flights</span>
+                            <li><a class="footer-list-links" href="">Available Flights</a></li>
+                            <li><a class="footer-list-links" href="">Propose a Flight</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul><span>Memberships</span>
+                            <li><a class="footer-list-links" href="">Elevate</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul><span>Company</span>
+                            <li><a class="footer-list-links" href="">About us</a></li>
+                            <li><a class="footer-list-links" href="">Solutions</a></li>
+                            <li><a class="footer-list-links" href="">News</a></li>
+                            <li><a class="footer-list-links" href="">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul><span>My Account</span>
+                            <li><a class="footer-list-links" href="">Register</a></li>
+                            <li><a class="footer-list-links" href="">Login</a></li>
+                            <li><a class="footer-list-links" href="">Dashboard</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+
+</body>
+
+<script type="module" src="./3js.js"></script>
+<script src="./scripts.js">
+</script>
+
+
+</html>

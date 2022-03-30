@@ -1,0 +1,9 @@
+pop up window for information on the details page
+fix flying box 
+3d object
+fix home page.
+
+Regisreation form 
+flight form 
+css on main page + proper images 
+
